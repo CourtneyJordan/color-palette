@@ -1,0 +1,105 @@
+//Overall styles for the page layout
+
+
+//importing color vairbles form varibles.scss
+@import "variables";
+@import "mixins.scss";
+
+body {
+	background: #F5F5F5;
+} 
+
+table {
+	border: 1px solid #CDCDCD;
+	background: #FFF;
+}
+
+caption {
+	font-family: 'Schoolbell', arial;
+	font-size: 1.4em;
+	color: #555;
+}
+
+th {
+	text-align: left;
+	padding: 8px;
+}
+
+td {
+	border-top: 1px solid #DBF8FF;
+	padding: 10px;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+.page {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.swatch {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin: -6px 0 0 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.msg-all {
+	border-radius: 6px;
+	color: #FFF;
+	margin: 10px 0;
+	padding: 6px 10px;
+}
+
+.msg,
+.success,
+.error,
+.warning,
+.system {
+  @include background-color;
+}
+
+.warning {
+  color: #222;
+}
+
+
+//Effects
+.pop-out
+{
+  position: relative;
+}
+.pop-out:before, .pop-out:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.pop-out:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
