@@ -1,7 +1,17 @@
 //Colors Palette colors Only
 
-$msg: #18A2C9;
-$success: #28C262;
-$error: #FF4747;
-$warning: #FFE338;
-$system: #E88C47;
+$blue: #18A2C9;
+$blueLight: lighten($blue, 10%);
+$blueDark: darken($blue, 10%);
+$green: #28C262;
+$greenLight: lighten($green, 10%);
+$greenDark: darken($green, 10%);
+$red: #FF4747;
+$redLight: lighten($red, 10%);
+$redDark: darken($red, 10%);
+$yellow: #FFE338;
+$yellowLight: lighten($yellow, 10%);
+$yellowDark: darken($yellow, 10%);
+$orange: #E88C47;
+$orangeLight: lighten($orange, 10%);
+$orangeDark: darken($orange, 10%);

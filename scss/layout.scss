@@ -1,9 +1,9 @@
-//Overall styles for the page layout
+//Overall styles for page layout
 
 
 //importing color vairbles form varibles.scss
 @import "variables";
-@import "mixins.scss";
+@import "mixins";
 
 body {
 	background: #F5F5F5;
@@ -56,18 +56,66 @@ div {
 	padding: 6px 10px;
 }
 
-.msg,
-.success,
-.error,
-.warning,
-.system {
-  @include background-color;
+.blue {
+  @include background-color($blue);
 }
 
-.warning {
+.blueLight {
+  background-color: $blueLight;
+}
+
+.blueDark {
+  background-color: $blueDark;
+}
+
+.green {
+  @include background-color($green);
+}
+
+.greenLight {
+  background-color: $greenLight;
+}
+
+.greenDark {
+  background-color: $greenDark;
+}
+
+.red {
+  @include background-color($red);
+}
+
+.redLight {
+  background-color: $redLight;
+}
+
+.redDark {
+  background-color: $redDark;
+}
+
+.yellow {
+  @include background-color($yellow);
   color: #222;
 }
 
+.yellowLight {
+  background-color: $yellowLight;
+}
+
+.yellowDark {
+  background-color: $yellowDark;
+}
+
+.orange {
+  @include background-color($orange);
+}
+
+.orangeLight {
+  background-color: $orangeLight;
+}
+
+.orangeDark {
+  background-color: $orangeDark;
+}
 
 //Effects
 .pop-out
@@ -87,19 +135,11 @@ div {
   -webkit-box-shadow: 0 15px 10px #777;
   -moz-box-shadow: 0 15px 10px #777;
   box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  @include transform(-3deg);
 }
 
 .pop-out:after {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
+  @include transform(3deg);
   right: 10px;
   left: auto;
 }
