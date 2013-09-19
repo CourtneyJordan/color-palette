@@ -8,9 +8,11 @@ table {
 }
 
 caption {
-  font-family: 'Schoolbell', arial;
+  background: #CCC;
+  font-family: 'Helvetica';
   font-size: 1.4em;
   color: #555;
+  padding: 0.4em;
 }
 
 th {
@@ -24,12 +26,17 @@ td {
 }
 
 div {
-  margin-bottom: 1em;
+  margin: 0.5em;
 }
 
 .page {
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
+}
+
+.item {
+  width: 20%;
 }
 
 .swatch {

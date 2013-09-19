@@ -1,6 +1,7 @@
 //Colors Palette colors Only
 
 $blue: #18A2C9;
+$blueLighter: lighten($blue, 30%);
 $blueLight: lighten($blue, 10%);
 $blueDark: darken($blue, 10%);
 $green: #28C262;
