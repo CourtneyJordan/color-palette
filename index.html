@@ -245,16 +245,16 @@
 			-->
 			</div>
 		</div>	
+		<script src="js/jquery.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script>
+			var $container = $('#container');
+			// initialize
+			$container.masonry({
+			  columnWidth: 150,
+			  itemSelector: '.item'
+			});
+			var msnry = $container.data('masonry');
+		</script>
 	</body>
-	<script src="js/jquery.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script>
-		var $container = $('#container');
-		// initialize
-		$container.masonry({
-		  columnWidth: 150,
-		  itemSelector: '.item'
-		});
-		var msnry = $container.data('masonry');
-	</script>
 </html> 
