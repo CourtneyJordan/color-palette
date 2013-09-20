@@ -1,27 +1,35 @@
 //Colors Palette colors Only
 
+$white: #FFFFFF;
+$black: #000000;
+$grey: #878892;
+$greyLighter: lighten($grey, 30%);
+$greyLight: lighten($grey, 10%);
+$greyDark: darken($grey, 10%);
+$greyDarker: darken($grey, 22.5%);
+
 $blue: #18A2C9;
 $blueLighter: lighten($blue, 30%);
 $blueLight: lighten($blue, 10%);
 $blueDark: darken($blue, 10%);
-$blueDarker: darken($blue, 30%);
+$blueDarker: darken($blue, 22.5%);
 $green: #28C262;
 $greenLighter: lighten($green,30%);
 $greenLight: lighten($green, 10%);
 $greenDark: darken($green, 10%);
-$greenDarker: darken($green,30%);
+$greenDarker: darken($green,22.5%);
 $red: #FF4747;
 $redLighter: lighten($red, 30%);
 $redLight: lighten($red, 10%);
 $redDark: darken($red, 10%);
-$redDarker: darken($red, 30%);
+$redDarker: darken($red, 22.5%);
 $yellow: #FFE338;
 $yellowLighter: lighten($yellow, 30%);
 $yellowLight: lighten($yellow, 10%);
 $yellowDark: darken($yellow, 10%);
-$yellowDarker: darken($yellow, 30%);
+$yellowDarker: darken($yellow, 22.5%);
 $orange: #E88C47;
 $orangeLighter: lighten($orange, 30%);
 $orangeLight: lighten($orange, 10%);
 $orangeDark: darken($orange, 10%);
-$orangeDarker: darken($orange, 30%);
+$orangeDarker: darken($orange, 22.5%);

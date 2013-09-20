@@ -62,7 +62,7 @@ div {
   display: inline-block;
   width: 30px;
   height: 20px;
-  margin: -6px 0 0 30px;
+  margin: 4px 0 0 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -73,6 +73,35 @@ div {
   color: #FFF;
   margin: 10px 0;
   padding: 6px 10px;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid #D7D8DB;
+}
+
+.greyLighter {
+  background-color: #d7d8db;
+}
+
+.greyLight {
+  background-color: #a2a3aa;
+}
+
+.grey {
+  background-color: #878892;
+}
+
+.greyDark {
+  background-color: #6d6e79;
+}
+
+.greyDarker {
+  background-color: #4f5057;
+}
+
+.black {
+  background-color: black;
 }
 
 .blue {
@@ -92,7 +121,7 @@ div {
 }
 
 .blueDarker {
-  background-color: #083440;
+  background-color: #0c4f62;
 }
 
 .green {
@@ -112,7 +141,7 @@ div {
 }
 
 .greenDarker {
-  background-color: #0e4322;
+  background-color: #146332;
 }
 
 .red {
@@ -132,7 +161,7 @@ div {
 }
 
 .redDarker {
-  background-color: #ad0000;
+  background-color: #d30000;
 }
 
 .yellow {
@@ -153,7 +182,7 @@ div {
 }
 
 .yellowDarker {
-  background-color: #9e8800;
+  background-color: #c4a900;
 }
 
 .orange {
@@ -173,7 +202,7 @@ div {
 }
 
 .orangeDarker {
-  background-color: #854311;
+  background-color: #a75415;
 }
 
 .pop-out {
