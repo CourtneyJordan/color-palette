@@ -7,11 +7,34 @@ table {
   background: #FFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+}
+
+p,
+caption,
+th,
+td {
+  color: #444;
+}
+
+p,
+th,
+td {
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
 caption {
   background: #CCC;
-  font-family: 'Helvetica';
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4em;
-  color: #555;
   padding: 0.4em;
 }
 
@@ -35,10 +58,6 @@ div {
   position: relative;
 }
 
-.item {
-  width: 20%;
-}
-
 .swatch {
   display: inline-block;
   width: 30px;
@@ -60,6 +79,10 @@ div {
   background-color: #18a2c9;
 }
 
+.blueLighter {
+  background-color: #89daf1;
+}
+
 .blueLight {
   background-color: #2ebde6;
 }
@@ -68,8 +91,16 @@ div {
   background-color: #137d9b;
 }
 
+.blueDarker {
+  background-color: #083440;
+}
+
 .green {
   background-color: #28c262;
+}
+
+.greenLighter {
+  background-color: #99eab8;
 }
 
 .greenLight {
@@ -80,8 +111,16 @@ div {
   background-color: #1f984d;
 }
 
+.greenDarker {
+  background-color: #0e4322;
+}
+
 .red {
   background-color: #ff4747;
+}
+
+.redLighter {
+  background-color: #ffe0e0;
 }
 
 .redLight {
@@ -92,9 +131,17 @@ div {
   background-color: #ff1414;
 }
 
+.redDarker {
+  background-color: #ad0000;
+}
+
 .yellow {
   background-color: #ffe338;
   color: #222;
+}
+
+.yellowLighter {
+  background-color: #fff9d1;
 }
 
 .yellowLight {
@@ -105,8 +152,16 @@ div {
   background-color: #ffdc05;
 }
 
+.yellowDarker {
+  background-color: #9e8800;
+}
+
 .orange {
   background-color: #e88c47;
+}
+
+.orangeLighter {
+  background-color: #f9e1cf;
 }
 
 .orangeLight {
@@ -115,6 +170,10 @@ div {
 
 .orangeDark {
   background-color: #e0701c;
+}
+
+.orangeDarker {
+  background-color: #854311;
 }
 
 .pop-out {

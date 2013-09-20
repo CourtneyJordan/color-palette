@@ -14,11 +14,35 @@ table {
 	background: #FFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+p,
+caption,
+th,
+td {
+  color: #444;
+}
+
+p,
+th,
+td {
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
 caption {
   background: #CCC;
-	font-family: 'Helvetica';
+  font-family: 'Raleway', sans-serif;
 	font-size: 1.4em;
-	color: #555;
   padding: 0.4em;
 }
 
@@ -42,10 +66,6 @@ div {
   position: relative;
 }
 
-.item {
-  width: 20%;
-}
-
 .swatch {
 	display: inline-block;
 	width: 30px;
@@ -67,36 +87,60 @@ div {
   @include background-color($blue);
 }
 
+.blueLighter {
+  @include background-color($blueLighter);
+}
+
 .blueLight {
-  background-color: $blueLight;
+  @include background-color($blueLight);
 }
 
 .blueDark {
-  background-color: $blueDark;
+  @include background-color($blueDark);
+}
+
+.blueDarker {
+  @include background-color($blueDarker);
 }
 
 .green {
   @include background-color($green);
 }
 
+.greenLighter {
+  @include background-color($greenLighter);
+}
+
 .greenLight {
-  background-color: $greenLight;
+  @include background-color($greenLight);
 }
 
 .greenDark {
-  background-color: $greenDark;
+  @include background-color($greenDark);
+}
+
+.greenDarker {
+  @include background-color($greenDarker);
 }
 
 .red {
   @include background-color($red);
 }
 
+.redLighter {
+  @include background-color($redLighter);
+}
+
 .redLight {
-  background-color: $redLight;
+  @include background-color($redLight);
 }
 
 .redDark {
-  background-color: $redDark;
+  @include background-color($redDark);
+}
+
+.redDarker {
+  @include background-color($redDarker);
 }
 
 .yellow {
@@ -104,24 +148,40 @@ div {
   color: #222;
 }
 
+.yellowLighter {
+  @include background-color($yellowLighter);
+}
+
 .yellowLight {
-  background-color: $yellowLight;
+  @include background-color($yellowLight);
 }
 
 .yellowDark {
-  background-color: $yellowDark;
+  @include background-color($yellowDark);
+}
+
+.yellowDarker {
+  @include background-color($yellowDarker);
 }
 
 .orange {
   @include background-color($orange);
 }
 
+.orangeLighter {
+  @include background-color($orangeLighter);
+}
+
 .orangeLight {
-  background-color: $orangeLight;
+  @include background-color($orangeLight);
 }
 
 .orangeDark {
-  background-color: $orangeDark;
+  @include background-color($orangeDark);
+}
+
+.orangeDarker {
+  @include background-color($orangeDarker);
 }
 
 //Effects
