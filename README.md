@@ -1,1 +1,1 @@
-![Color Palette](https://github.com/courtney-jordan/color-palette/blob/master/images/color-palette.png "Color Palette version 1.0")
+![Color Palette](https://raw.github.com/courtney-jordan/color-palette/master/images/color-palette.png "Color Palette version 1.0")
